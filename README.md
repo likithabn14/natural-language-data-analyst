@@ -78,5 +78,3 @@ The application provides:
 BE – Data Science
 
 Aditya College of Engineering and Technology
-
-Bengaluru, India
