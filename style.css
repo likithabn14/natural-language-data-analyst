@@ -1,0 +1,237 @@
+/* ======================================
+   Natural Language Data Analyst
+   ====================================== */
+
+body{
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Hide Streamlit menu */
+#MainMenu{
+    visibility:hidden;
+}
+
+footer{
+    visibility:hidden;
+}
+
+header{
+    visibility:hidden;
+}
+
+/* Main Title */
+
+.main-title{
+
+    font-size:40px;
+
+    font-weight:700;
+
+    color:#2563EB;
+
+    text-align:center;
+
+    margin-bottom:5px;
+}
+
+/* Subtitle */
+
+.sub-title{
+
+    text-align:center;
+
+    color:#6B7280;
+
+    font-size:18px;
+
+    margin-bottom:30px;
+}
+
+/* Card */
+
+.card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    margin-top:15px;
+
+    margin-bottom:15px;
+
+    box-shadow:0px 2px 10px rgba(0,0,0,0.10);
+
+    border:1px solid #E5E7EB;
+}
+
+/* Section Heading */
+
+.section-title{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    color:#111827;
+
+    margin-bottom:15px;
+}
+
+/* Metric Box */
+
+.metric-card{
+
+    background:#F8FAFC;
+
+    border-radius:12px;
+
+    padding:20px;
+
+    border-left:5px solid #2563EB;
+
+    margin-top:10px;
+}
+
+/* SQL Box */
+
+.sql-box{
+
+    background:#0F172A;
+
+    color:white;
+
+    border-radius:10px;
+
+    padding:15px;
+
+    font-family:Consolas;
+
+    margin-top:10px;
+
+    margin-bottom:20px;
+}
+
+/* Success */
+
+.success-box{
+
+    background:#DCFCE7;
+
+    color:#166534;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    font-weight:bold;
+}
+
+/* Warning */
+
+.warning-box{
+
+    background:#FEF3C7;
+
+    color:#92400E;
+
+    padding:15px;
+
+    border-radius:10px;
+}
+
+/* Error */
+
+.error-box{
+
+    background:#FEE2E2;
+
+    color:#991B1B;
+
+    padding:15px;
+
+    border-radius:10px;
+}
+
+/* Table */
+
+table{
+
+    border-collapse:collapse;
+
+    width:100%;
+}
+
+table th{
+
+    background:#2563EB;
+
+    color:white;
+
+    text-align:center;
+}
+
+table td{
+
+    text-align:center;
+}
+
+/* Buttons */
+
+.stButton>button{
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    padding:10px 18px;
+
+    font-weight:bold;
+
+    width:100%;
+}
+
+.stButton>button:hover{
+
+    background:#1D4ED8;
+
+    color:white;
+}
+
+/* Download Buttons */
+
+.stDownloadButton>button{
+
+    background:#16A34A;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    width:100%;
+}
+
+.stDownloadButton>button:hover{
+
+    background:#15803D;
+
+    color:white;
+}
+
+/* File Upload */
+
+section[data-testid="stFileUploader"]{
+
+    border:2px dashed #2563EB;
+
+    border-radius:12px;
+
+    padding:15px;
+}
