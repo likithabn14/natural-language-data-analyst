@@ -3,9 +3,6 @@
 ## 📌 Project Overview
 
 AI Natural Language Data Analyst is a Streamlit-based web application that allows users to analyze CSV datasets using simple English questions. Instead of writing SQL queries manually, users can upload a dataset and ask questions like "Show total Units Sold" or "Show average Unit Price by Region". The application converts these questions into SQL queries, executes them, and displays the results instantly.
-
-This project is built using a rule-based approach without using any AI APIs or large language models.
-
 ---
 Demo Link 
 https://natural-language-data-analyst-3cabgx9ezxzabzdacvdhum.streamlit.app/
